@@ -1,0 +1,174 @@
+
+h1 {
+	text-align: center;	
+	font-family: Bookman Old Style;
+	font-size: 55px;
+	font-weight: bold;
+}
+
+body	{
+	font-size: 20px;
+	background-color:#bab8b6;
+	text-align: center;
+	
+}
+
+.may, .name	{
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.back, .back2	{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navibar ul 	{
+	overflow: hidden;
+	background-color: #f0bc89;
+	padding: 5px;
+	margin: 5px;
+	width: 100%;
+	text-align: right;
+	border: 2px solid;
+}
+
+.navibar ul li 	{
+	list-style-type: none;
+	display: inline-block;
+	border: 2px solid;
+
+	
+}
+
+.navibar ul li a 	{
+	display: block;
+	color: black;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Bookman Old Style;
+	text-decoration: none;
+	padding: 15px 30px 15px 20px;
+}
+
+.navibar ul li a:hover 	{
+	background-color: #bab8b6;
+}
+
+img.first	{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.start2, .start4, .titlediv	{
+	background-color: #f0bc89;
+}
+
+.businessdiv, .create {
+  float: left;
+  width: 40%;	
+}
+
+.mediv, .part2 {
+  float: right;
+  width: 50%;	
+}
+
+.part2    {
+	margin-right: 25px;
+}
+
+.footer	{
+	font-size: 10px;
+}
+@media only screen and (max-width: 500px) {
+	
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+body	{
+	font-size: 10px;	
+}
+
+.may, .name	{
+	font-size: 15px;
+}
+
+.back, .back2	{
+	font-size: 15px;
+}
+
+
+.navibar ul li a 	{
+	color: black;
+	text-align: right;
+	font-size: 12px;
+}
+
+
+img.first	{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.businessdiv, .create {
+  float: justify;
+}
+
+.mediv, .part2 {
+  float: justify;
+}
+
+
+.footer	{
+	font-size: 5px;
+}
+
+@media only screen and (max-width: 780px) {
+	
+h1 {
+	font-size: 40px;
+}
+
+body	{
+	font-size: 14px;	
+}
+
+.may, .name	{
+	font-size: 14px;
+}
+
+.back, .back2	{
+	font-size: 14px;
+}
+
+
+.navibar ul li a 	{
+	color: black;
+	text-align: right;
+	font-size: 14px;
+}
+
+
+img.first	{
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.businessdiv, .create {
+  float: justify;
+}
+
+.mediv, .part2 {
+  float: justify;
+}
+
+.footer	{
+	font-size: 8px;
+}
